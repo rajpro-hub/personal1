@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .grand{
+            height: 100%;
+            width: 100%;
+            border: 5px solid black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #parent{
+            height: 400px;
+            width: 300px;
+            border: 5px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;/*start-center- end */
+            align-items: center;/*start-center-end horizontally*/
+        }
+        #ch1{
+            width: 15px;
+            height: 15px;
+            border: 3px solid red;
+        }
+        #ch2{
+            width: 15px;
+            height: 15px;
+            border: 3px solid blue;
+        }
+        #ch3{
+            width: 15px;
+            height: 15px;
+            border: 3px solid brown;
+        }
+        #ch4{
+            width: 15px;
+            height: 15px;
+            border: 3px solid aquamarine;
+        }
+        #ch5{
+            width: 15px;
+            height: 15px;
+            border: 3px solid green;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="grand">
+    <div id="parent">
+        <div id="ch1">1</div>
+        <div id="ch2">2</div>
+        <div id="ch3">3</div>
+        <div id="ch4">4</div>
+        <div id="ch5">5</div>
+    </div></div>
+</body>
+</html>

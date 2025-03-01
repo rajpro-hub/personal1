@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="abc.css">
+    <style>
+       
+        #div{
+            box-sizing: content-box;
+            height: 200px;
+            width: 200px;
+             /*groove,dotted,dashed,solid,double*/
+            border-style: double ;
+           
+            border-width: 100px;
+            border-color: cyan;
+            border: 5px  double red;
+            padding: 50px 50px;
+            /* dist outside the border*/
+            margin-top: 100px;
+            margin-left:0px ;
+
+        }
+        #div2{
+            box-sizing: content-box;
+            height: 190px;
+            width: 190px;
+            border: 5px double rgb(0, 0, 0);
+            text-align: center;
+            /* top,right,bottom,left*/
+            /* distance beetween corner to border*/
+            padding: 5px 5px;
+            /*for adding image in box background*/
+            background-image: url(image/bike.jfif);
+            background-size: cover;
+            background-color: rgb(4, 218, 218);
+            /*box radius for folding corner of box like - 50% 0 */
+            border-radius: 50% ;
+            /*box shadow is for adding shadow in the box*/
+            box-shadow:  10px 15px 10px black,
+            /*right , bottom, blurnes, color*/
+                         -10px -15px 10px black  ;
+             /* left ,top,blurness,color*/            
+            
+            
+        }
+        .re{
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        body{
+            background-image: url(image/moon.jpg);
+            background-size: cover;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="re">
+    <div id="div">
+        <div id="div2"></div>
+    </div></div>
+    <div>]
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum iste repudiandae, sunt itaque, hic architecto totam deserunt incidunt laudantium reiciendis provident, sequi harum fugiat cupiditate id nulla mollitia nisi illo?
+        Corporis rem cumque dicta sit ad nam aut soluta rerum facere, a est eos, quia impedit, assumenda deleniti aperiam! Nulla fuga facilis quisquam corporis illo minus praesentium dolor esse laboriosam.
+        Nobis iste adipisci quia error sed placeat consequatur ullam quasi? In, pariatur totam? Modi beatae distinctio a, impedit aspernatur nobis fuga omnis pariatur. Illo amet mollitia ullam nostrum fugit quae!
+        Facilis at accusantium laborum culpa nisi quia minima commodi, natus temporibus voluptatem sint amet cumque nostrum alias obcaecati consectetur non, autem aspernatur voluptate quisquam, veritatis nesciunt! Possimus necessitatibus nihil ipsa.
+        Hic necessitatibus aut obcaecati aperiam similique rem, harum culpa odit nisi vel officiis aspernatur nostrum labore pariatur eum ab amet! Assumenda necessitatibus fugiat aperiam veniam ipsam unde inventore, vitae obcaecati?
+    </div>
+</body>
+</html>

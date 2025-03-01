@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.play {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 240px;
+    height: 240px;
+}
+
+.play div {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.piece {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styles for chess pieces */
+.pawn {
+    background-image: url('path/to/pawn.png');
+    background-size: cover;
+}
+
+.rook {
+    background-image: url('path/to/rook.png');
+    background-size: cover;
+}
+
+.knight {
+    background-image: url('path/to/knight.png');
+    background-size: cover;
+}
+
+.bishop {
+    background-image: url('path/to/bishop.png');
+    background-size: cover;
+}
+
+.queen {
+    background-image: url('path/to/queen.png');
+    background-size: cover;
+}
+
+.king {
+    background-image: url('path/to/king.png');
+    background-size: cover;
+}
